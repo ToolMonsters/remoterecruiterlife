@@ -282,6 +282,20 @@ body {
   color: #000;
 }
 
+.full-image__cta--outline {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  bottom: 4%;
+  padding: 0.7vw 2vw;
+  font-size: clamp(0.6rem, 1.1vw, 0.9rem);
+}
+
+.full-image__cta--outline:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 /* ── P7 CTA group ── */
 .p7-cta-group {
   position: absolute;
